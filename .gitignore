@@ -33,18 +33,3 @@ unit_test/bootloader/Core/Inc/*
 !unit_test/bootloader/library/*
 
 
-!unit_test/usb_cdc
-unit_test/usb_cdc/*
-!unit_test/usb_cdc/Core
-unit_test/usb_cdc/Core/Startup/*
-unit_test/usb_cdc/Core/Src/*
-!unit_test/usb_cdc/Core/Src/main.c
-!unit_test/usb_cdc/Core/Src/program.c
-unit_test/usb_cdc/Core/Inc/*
-!unit_test/usb_cdc/Core/Inc/main.h
-!unit_test/usb_cdc/Core/Inc/program.h
-
-!unit_test/usb_cdc/USB_Bootloader.ioc
-!unit_test/usb_cdc/STM32F103C6TX_FLASH.ld
-
-!unit_test/usb_cdc/library/*
