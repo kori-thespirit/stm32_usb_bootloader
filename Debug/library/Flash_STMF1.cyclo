@@ -1,6 +1,0 @@
-../library/Flash_STMF1.c:11:21:Flash_Unlock	2
-../library/Flash_STMF1.c:18:21:Flash_Lock	1
-../library/Flash_STMF1.c:21:21:Flash_EraseSector	3
-../library/Flash_STMF1.c:34:21:Flash_ProgramHalfWord	3
-../library/Flash_STMF1.c:47:21:Flash_ProgramWord	4
-../library/Flash_STMF1.c:63:21:JumpToApplication	1
