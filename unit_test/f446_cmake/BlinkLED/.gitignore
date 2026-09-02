@@ -1,0 +1,6 @@
+Drivers
+build
+Core/*
+!Core/Src
+Core/Src/stm32*
+Core/Src/sys*
