@@ -2,15 +2,19 @@
 
 ## Chuẩn bị
 1. Tải và cài đặt GNU ARM toolchain 
-Tải toolchain tại [GNU ARM toolchain](https://gitlab.arm.com/tooling/gnu-toolchains-for-arm) và lựa chọn phiên bản trong nhánh release tương ứng
+
+    Tải toolchain tại [GNU ARM toolchain](https://gitlab.arm.com/tooling/gnu-toolchains-for-arm) và lựa chọn phiên bản trong nhánh release tương ứng
+
 2. Cài đặt Ninja
     - Sử dụng package manager là brew `brew install ninja`
     - Sử dụng package manager là apt `sudo apt install ninja-build`
 ## Thực hiện
 1. Thêm đường dẫn toolchain vào biến môi trường $PATH
-Sử dụng lệnh bên dưới để thêm đường dẫn toolchain vào đường dẫn chung PATH:
+
+    Sử dụng lệnh bên dưới để thêm đường dẫn toolchain vào đường dẫn chung PATH:
     ```bash
     export PATH="$PATH:$HOME/arm-gnu-toolchain-*/bin"
+    Ex: export PATH="$PATH:$HOME/arm-gnu-toolchain-15.3.rel1-darwin-arm64-arm-none-eabi/bin"
     ```
 2. Build dự án với CMake sử dụng mẫu bên dưới:
     ```bash
@@ -24,3 +28,4 @@ Sử dụng lệnh bên dưới để thêm đường dẫn toolchain vào đư�
         -DCMAKE_BUILD_TYPE=Debug 
     cmake --build build
     ```
+
