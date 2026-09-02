@@ -1,5 +1,5 @@
 #! /bin/zsh
-
+cd $1
 cmake \
     -S . \
     -B build \
@@ -7,5 +7,5 @@ cmake \
     -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
     -G "Ninja" \
     -DCMAKE_BUILD_TYPE=Debug 
-
 cmake --build build
+cd -
